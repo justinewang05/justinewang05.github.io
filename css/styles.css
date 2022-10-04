@@ -11779,3 +11779,30 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-text {
+  animation: fadeIn 5s;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+#introduction {
+  background-color: #5997ac;
+  color: #eeede7;
+}
+
+.special-end {
+  color: #f7aec2;
+}
+
+#services {
+  background-color: #f7aec2;
+}
